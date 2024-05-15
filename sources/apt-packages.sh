@@ -65,5 +65,8 @@ function installPackages () {
         docker-ce-cli \
         containerd.io \
         docker-buildx-plugin \
-        docker-compose-plugin -y
+        docker-compose-plugin \
+        policykit-1-gnome \
+        pulsemixer \
+        -y
 }
